@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "SRK-RAJU/vpc/aws"
+  source  = "terraform-aws-modules/vpc/aws"
 
 
   name = var.NAME

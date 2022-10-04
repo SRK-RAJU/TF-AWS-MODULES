@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source  = "SRK-RAJU/ec2-instance/aws"
+  source  = "terraform-aws-modules/ec2-instance/aws"
 
 
   name = var.NAME
